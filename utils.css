@@ -1,0 +1,102 @@
+.poster{
+    padding: 44px;
+    
+}
+.poster img{
+    border-radius: 9px;
+    height: 500px;
+}
+.music-table{
+    margin: 42px 13px 0px 0px;
+    /* border: 3px solid red; */
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.music-table ul{
+    border-radius: 12px;
+    /* border: 3px solid white; */
+    /* height: 4px; */
+    /* margin: 0px 0px 0px 14px; */
+    padding: 10px 3px 24px 20px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+.music-table ul:hover{
+    background-image: linear-gradient(-315deg, #130f40 0%, #000000 74%);
+}
+.music-table ul li{
+    
+    font-size: 17px;
+    color: rgb(238, 214, 214);
+    
+}
+.music-table ul li:hover{
+    border-bottom: 4px solid white;
+    color: white;
+    font-weight: bold;
+}
+.songs{
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+    /* border: 3px solid black; */
+    /* padding: 0px 0px 0px 25px;  */
+}
+.songs .s1{
+    
+    position: relative;
+    /* border: 1px solid pink; */
+    padding: 10px 0px;
+}
+.songs .s1:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid black;
+    border-top: 3px solid #130f40;
+
+}
+.songs .s1 .sps{
+    /* position: absolute; */
+    left: 0%;
+    width: 42px;
+    border-radius: 100%;
+}
+.songs .s1 .song{
+    padding: 15px 0px ;
+    /* border: 1px solid white; */
+    position: relative;
+    left: 52px;
+    top: 5px;
+    width: 274px;
+    position: absolute;
+    font-weight: bold;
+    /* padding: 14px; */
+    /* font-size: 22px; */
+}
+.songs .s1 .singer{
+    top: 18px;
+    /* border: 1px solid white; */
+    /* align-items: center; */
+    /* font-size: 18px; */
+    position: absolute;
+    left: 47%;
+}
+.songs .s1 .fa-solid{
+    /* border: 1px solid white; */
+    position: absolute;
+    
+    top: 18px;
+    right:10px;
+}
+.songs .s1 .fa-solid:hover{
+    border-radius: 100%;
+    border: 2px solid red;
+}
+
+
+
